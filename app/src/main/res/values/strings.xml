@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">WeatherApi-Retrofit</string>
+    <string name="inputcitycountry">city,country</string>
+    <string name="action_settings">Settings</string>
+    <string name="cod_id">Hello world!</string>
+    <string name="coords_id">Settings</string>
+    <string name="sunrise_id">Hello world!</string>
+    <string name="sunset_id">Settings</string>
+    <string name="city_name">Hello world!</string>
+    <string name="country_name">Settings</string>
+    <string name="temp_id">Hello world!</string>
+</resources>
+
+
