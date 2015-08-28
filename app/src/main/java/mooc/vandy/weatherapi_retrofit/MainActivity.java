@@ -29,7 +29,7 @@ import retrofit.client.Response;
 public class MainActivity extends AppCompatActivity {
     protected final String TAG = getClass().getSimpleName();
     private RetainedAppData mRetainedAppData;
-    // UX handlers
+    
     private ProgressBar mProgressBar;
     private EditText mInputCityName;
     private TextView mCityNameTextView;
@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
         mProgressBar = (ProgressBar) findViewById(R.id.progress_bar_id);
         mInputCityName = (EditText) findViewById(R.id.input_city_id);
-        // Data saved
+        
         if (savedInstanceState != null) {
             if (getLastCustomNonConfigurationInstance() != null) {
                 mRetainedAppData = (RetainedAppData) getLastCustomNonConfigurationInstance();
